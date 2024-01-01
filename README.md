@@ -14,4 +14,17 @@
 <a href="https://scratch.mit.edu">ここをクリックするとページへ飛びます。(scratch)</a>
 </body>
 <body>
-<p>現在時刻は<span id="real-time"></span>です</p>
+ <p>現在時刻は<span id="real-time"></span>です</p>
+
+ <script type="text/javascript">
+function Time() {
+   ver realTime =new Date();
+   ver hour =real Time.getHours();
+   ver minutes =real Time.getMinutes();
+   ver seconds =real Time.getSeconds();
+   document.getElementByld("real-time").innerHTML =text;
+}
+setInterval('Time()',1000);
+ </script>
+</body>
+</html>
